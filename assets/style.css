@@ -66,7 +66,7 @@ ul li:hover ul.dropdown {
 }
 
 .header {
-    position: relative;
+    /* position: relative; */
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     width: 100%;
     height: 934px;
@@ -139,12 +139,12 @@ ul li:hover ul.dropdown {
     font-weight: 400;
 }
 
-/* .buttons-sec{
+.buttons-sec{
     align-items: center;
     position: relative;
 top: 619px;
 left: 121px;
-} */
+}
 
 .playbtn {
     flex-direction: row;
@@ -806,102 +806,20 @@ left: 143px; */
 
 /* End of features */
 
-.testimonials h4{
-    position: absolute;
-    width: 426px;
-height: 66px;
-top: 4246px;
-left: 119px;
-font-size: 71px;
-font-weight: 800;
-line-height: 66px;
-letter-spacing: -0.03em;
-text-align: left;
-color: rgba(0, 0, 0, 1);
-}
+Ya bata testimonials garne ho 
 
-.testimonials p{
-    position: absolute;
-    width: 570px;
-    height: 58px;
-    top: 4349px;
-    left: 119px;
-font-size: 16px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: -0.02em;
-text-align: left;
-color: linear-gradient(0deg, #000000, #000000),
-linear-gradient(0deg, #000000, #000000);
-}
 
-.testimonials #art{
+.counter{
+    display: grid;
+    /* grid-template-rows: 230px; */
+    /* grid-template-columns: auto; */
+    grid-template-columns: 20% 20% 20% 20% 10%;
+    gap: 38px;
     position: absolute;
-    width: 74.76px;
-height: 175.55px;
-top: 4277px;
-left: 1247.57px;
-transform: rotate(-75deg);
-}
-
-.blogs h4{
-    position: absolute;
-    width: 435px;
-height: 66px;
-top: 5434px;
-left: 119px;
-font-size: 63px;
-font-weight: 800;
-line-height: 66px;
-letter-spacing: -0.03em;
-text-align: left;
-color: rgba(0, 0, 0, 1);
-}
-
-.blogs .left h5{
-    position: absolute;
-    width: 146px;
-    height: 36px;
-    top: 5606px;
-    left: 151px;
-font-size: 16px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.07em;
-text-align: left;
-color: rgba(0, 0, 0, 1);
-}
-
-.blogs .left #p1{
-    position: absolute;
-    width: 524px;
-    height: 72px;
-    top: 5648px;
-    left: 151px;
-font-size: 29px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: -0.02em;
-text-align: left;
-color: rgba(0, 0, 0, 1);
-}
-
-.blogs .left #p1{
-    position: absolute;
-    width: 524px;
-    height: 72px;
-    top: 5648px;
-    left: 151px;
-font-size: 29px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: -0.02em;
-text-align: left;
-color: rgba(0, 0, 0, 1);
-}
-
-.read-more{
-    position: absolute;
-    display: flex;
-    align-items: center;
+    width: 1501.98px;
+height: 256px;
+top: 5031px;
+background: rgba(55, 52, 169, 1);
+color: rgba(255, 255, 255, 1);
+;
 }
