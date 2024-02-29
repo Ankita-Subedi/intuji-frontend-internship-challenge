@@ -66,11 +66,20 @@ ul li:hover ul.dropdown {
 }
 
 .header {
-    /* position: relative; */
+    position: relative;
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     width: 100%;
     height: 934px;
-
+    /* flex: 1;
+    background: linear-gradient(-67.88deg, #63d2f9, #c9e7f2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-19xl) var(--padding-19xl) 172px;
+    box-sizing: border-box;
+    gap: 151px 0;
+    max-width: 100%; */
 }
 
 .container1 {
