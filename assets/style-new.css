@@ -1,0 +1,289 @@
+:root {
+    --blue: #4F46BA;
+    --orange: #FF7F5C;
+    font-family: "Manrope", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility class  */
+.h-primary {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.h-sec {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.paragh {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: rgba(100, 96, 125, 1);
+}
+
+.btn-paragh {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    /*yo hatauna parna sakchha*/
+}
+
+.box-paragh {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000000;
+}
+
+.flex {
+    display: flex;
+}
+
+#header {
+    /* position: absolute; */
+    background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+    height: 900px;
+}
+
+#header .navigation {
+    display: flex;
+}
+
+#header .navigation ul {
+    display: flex;
+}
+
+#header .navigation {
+    padding-top: 38px;
+}
+
+#header .navigation .logo {
+    margin-left: 160px;
+}
+
+#header .navigation .btn {
+    margin-left: 314px;
+}
+
+#header .navigation .btn a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#header .navigation .navbar {
+    margin-left: 324px;
+}
+
+#header .navigation .navbar ul li {
+    list-style: none;
+}
+
+#header .navigation .navbar ul li a {
+    padding: 0px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#header .navigation .btn #start-free {
+    width: 137px;
+    height: 52px;
+    background: rgba(79, 70, 186, 1);
+    padding: 17px 36px;
+}
+
+#header .container .left {
+    margin-left: 160px;
+}
+
+#header .container .left h1 {
+    margin-top: 241px;
+}
+
+#header .container .left p {
+    margin-top: 10px;
+}
+
+#header .container .left .btn {
+    display: flex;
+    margin-top: 36px;
+}
+
+
+#header .container .left .btn #get-started {
+    text-decoration: none;
+    background: rgba(55, 52, 169, 1);
+    /* width: 162px;
+height: 60px; */
+    border-radius: 47px;
+    color: white;
+    padding: 15px 39px;
+}
+
+#header .container .left .play {
+    display: flex;
+}
+
+#header .container .left .play img {
+    width: 60px;
+    height: 60px;
+    margin-left: 53px;
+}
+
+#header .container .left .blue-ticks {
+    display: flex;
+    margin-top: 70px;
+}
+
+#header .container .left .blue-ticks img {
+    width: 18px;
+    height: 18px;
+}
+
+#header .container .left .blue-ticks .free {
+    display: flex;
+}
+
+#header .container .left .blue-ticks .free p {
+    margin: -6px 10px;
+}
+
+#header .container .left .blue-ticks .great p {
+    margin: -6px 10px;
+}
+
+#header .container .left .blue-ticks .great {
+    display: flex;
+    margin-left: 30px;
+}
+
+/* End of header section  */
+
+.companies {
+    position: absolute;
+    width: 100%;
+    height: 239px;
+    top: 860px;
+    background: #F5F6F8;
+    z-index: 0;
+}
+
+.companies p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.companies .photos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 46px;
+}
+
+/* End of companies  */
+
+.heading {
+    /* position: absolute; */
+    /* width: 1171px; */
+    height: 210px;
+    margin-top: 238px;
+    display: flex;
+}
+
+.heading .left1 {
+    margin-left: 160px;
+}
+
+.heading .right1 .box {
+    /* border: 2px solid brown; */
+    margin-left: 289px;
+    background: rgba(196, 196, 196, 1);
+    border-radius: 20px;
+    opacity: 0.3px;
+    margin-top: -40px;
+}
+
+.heading .right1 img {
+    margin: 16px 313px
+}
+
+.value-props {
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-between;
+}
+
+.value-props {
+    margin-left: 160px;
+    margin-top: 133px;
+    margin-right: 160px;
+}
+
+
+.value-props .box1 {
+    width: 380px;
+    height: 382px;
+    top: 1451px;
+    left: 121px;
+    border-radius: 20px;
+    border: 1px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(219, 228, 233, 1);
+}
+
+.value-props .box1 .num {
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin: 16px 16px;
+}
+
+.value-props .box1 img {
+    justify-content: center;
+    margin: 28px 159px;
+}
+
+.value-props .box1 h1 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 10px;
+}
+
+.value-props .box1 #text1 {
+    text-align: center;
+    margin-top: 23px;
+}
+
+/* End of value props section  */
+
+.content1 .left2 img{
+    
+}
