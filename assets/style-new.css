@@ -79,7 +79,7 @@
 }
 
 #header .navigation .btn {
-    margin-left: 314px;
+    margin-left: 332px;
 }
 
 #header .navigation .btn a {
@@ -285,5 +285,20 @@ height: 60px; */
 /* End of value props section  */
 
 .content1 .left2 img{
-    
+    margin-left: 121px;
+    margin-top: 139px;
+    width: 531px;
+    height: 480px;
 }
+
+.content1 .right2{
+    width: 490px;
+    height: 469px;
+    top: 1972px;
+    left: 124px;
+    border-radius: 20px;
+    /* border: 2px solid rgba(255, 255, 255, 1); */
+    border: 2px solid violet;
+}
+
+
