@@ -373,3 +373,31 @@ height: 60px; */
 }
 
 /* End of features  */
+
+.testimonial-boxes .testi-box-first p{
+    width: 368px;
+    height: 180px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    padding: 84px 34px;
+}
+
+.testimonial-boxes .testi-box-first{
+    width: 699px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(207, 207, 207, 1);
+    margin-top: 74px;
+    margin-left: 160px;
+}
+
+.testimonial-boxes{
+    justify-content: space-between;
+    
+}
