@@ -472,3 +472,24 @@ text-align: left;
 
 /* End of counter section  */
 
+.CTA .bg .CTA-head{
+font-size: 43px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: -0.03em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+margin-top: -333px;
+margin-left: -95px;
+}
+
+.CTA .bg .cta-btn{
+    display: inline-block;
+    /* width: 223px;
+    height: 67px; */
+    border-radius: 10px; 
+    margin-top: 44px;
+    margin-left: 518px;
+    background: rgba(255, 127, 92, 1);
+    padding: 19px 42px;
+}
