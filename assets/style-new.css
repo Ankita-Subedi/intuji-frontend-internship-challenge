@@ -80,9 +80,29 @@ color: rgba(0, 0, 0, 1);
 margin: 10px 10px;
 }
 
+.h2-blogs{
+font-size: 16px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.07em;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+
+.h3-blogs{
+font-size: 29px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+
 .flex {
     display: flex;
 }
+
+/* End of utility classes  */
 
 #header {
     /* position: absolute; */
@@ -449,3 +469,6 @@ line-height: 31px;
 letter-spacing: -0.02em;
 text-align: left;
 }
+
+/* End of counter section  */
+
