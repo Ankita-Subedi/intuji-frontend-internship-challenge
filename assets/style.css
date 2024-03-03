@@ -560,24 +560,6 @@ margin-top: 40px;
 
 /* End of footer  */
 
-.FAQ .FAQ-big-div .accordion .accordion-item {
-    width: 751px;
-    border-radius: 10px;
-    border: 1px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(207, 207, 207, 1);
-    margin-bottom: 15px;
-}
-
-.FAQ .FAQ-big-div .accordion .accordion-item1 {
-    width: 751px;
-    border-radius: 10px;
-    border: 1px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(207, 207, 207, 1);
-    margin-bottom: 15px;
-}
-
 .FAQ .FAQ-big-div .more-qstn {
     width: 401px;
     height: 512px;
@@ -586,14 +568,25 @@ margin-top: 40px;
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(207, 207, 207, 1) ;
     margin-left: 48px;
-    margin-top: 71px;
-       
+    margin-top: 71px;      
 }
 
-.accordion-content1 {
-    display: none;
+
+.FAQ .FAQ-big-div .faq-box .faq-box1{
+    width: 751px;
+height: 156px;
+border-radius: 10px;
+border: 1px solid rgba(207, 207, 207, 1);
+margin-top: 71px;
 }
 
-.accordion-item1.active .accordion-content1 {
-    display: block;
+
+.FAQ .FAQ-big-div .faq-box .faq-box1 .faq-text .title{
+margin-top: 25px;
+margin-left: 23px;
+}
+
+.FAQ .FAQ-big-div .faq-box .faq-box1 .faq-text .content{
+margin-top: 23px;
+margin-left: 23px;
 }
