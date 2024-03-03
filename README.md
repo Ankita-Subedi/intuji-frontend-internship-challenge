@@ -1,2 +1,2 @@
 # intuji-frontend-internship-challenge
-Responsive SaaS Landing Page
+ SaaS Landing Page
